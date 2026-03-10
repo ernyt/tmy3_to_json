@@ -12,3 +12,32 @@ directory as this script. Use the following command to run the script
 This has been tested using versions:
 python 3.9.0
 pandas 2.2.0
+
+Format of the outputted JSON files is as follows
+
+[
+
+{
+"id": "the weather station ID or USAF", // string
+
+"site_name": "the weather station site name", //string
+
+"coordinates": [150, -26], // [float, float]
+
+"data": [
+
+{
+
+"timestamp": 1724703772146, // integer
+
+"ghi": 0, // integer
+
+"dni": 0 // integer
+
+}
+
+]
+
+}
+
+]
